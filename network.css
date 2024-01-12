@@ -1,0 +1,99 @@
+*{
+    margin: 0PX;
+    padding: 0PX;
+   
+}
+body{
+    background: url("https://th.bing.com/th/id/R.18257125c3ed7bcc36a1e855c54f4a4a?rik=rMhH37X%2bu20e8g&pid=ImgRaw&r=0");
+ 
+}
+
+
+header{
+    position: relative;
+    top: 20px;
+    text-align: center;
+    color: white;
+
+}
+
+input{
+    font-size: 15px;
+}
+input:hover{
+  
+    background-color: navy;
+    border: solid 2px;
+    border-radius: 5px;
+}
+div{
+
+    display: flex;
+    justify-content: space-between;
+
+}
+section{
+    height:500px;
+    width: 33%;
+}
+.a{
+    text-align: center;
+}
+form{
+    position: relative;
+    top: 40px;
+    left: 14%;
+    border: solid 1px cadetblue;
+    border-radius: 50px;
+    background-color: cadetblue;
+    width: 300px;
+}
+label{
+  
+    font-size: 20px;
+}
+
+input[type="submit"]{
+    border: none;
+    color:wheat;
+    background-color: brown;
+    border-radius: 15px;
+  padding: 10px  15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+ 
+}
+input[type="submit"]:hover{
+    color: black;
+    position: relative;
+    border-radius: 20px;
+    outline-color: black;
+}
+
+aside{
+  position: relative;
+    top: 100px;
+   left: 20px;
+   font-size: 25px;
+}
+.welcome{
+    color: crimson;
+}
+img{
+    height: 130px;
+    width: 130px;
+    border: solid 1px;
+}
+p::first-letter{
+    font-size: 40px;
+    color: red;
+}
+p{
+    font-size: 15px;
+    color: aliceblue;
+}
+
